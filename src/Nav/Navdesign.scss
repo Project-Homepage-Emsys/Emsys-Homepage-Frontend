@@ -1,0 +1,37 @@
+
+.nav_table
+{
+  background-color: white;
+  border-collapse: collapse; //tr에 border적용 가능케함
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  display: none;
+
+  th
+  {
+    height: 50px;
+    font-size: 50px;
+    text-align: right;
+  }
+
+  tr
+  {
+    border-bottom: 1px solid lightgray;
+    height: 80px;
+    td
+    {
+      width: 150px;
+    }
+    .descript{
+      b{font-size: 30px; margin-left: 10px;}
+      width: 200px;
+      padding-left: 20px;
+    }
+
+  }
+  tr:hover
+  {
+    background-color: lightgray;
+  }
+}
