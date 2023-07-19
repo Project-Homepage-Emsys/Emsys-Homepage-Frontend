@@ -6,13 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Nav from './Nav/Nav';
 import Main from './Main';
 //지연 작업공간 
+import Footer from './Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Main/>
     <Nav/>
-
+    <Footer/>
   </React.StrictMode>
 );
 
