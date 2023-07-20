@@ -1,12 +1,13 @@
 
 .nav_table
 {
+  z-index: 1;
   background-color: white;
   border-collapse: collapse; //tr에 border적용 가능케함
   font-size: 20px;
   position: fixed;
   top: 0;
-  display: none;
+
 
   th
   {
@@ -34,4 +35,12 @@
   {
     background-color: lightgray;
   }
+}
+
+.toggle-button
+{
+  z-index: 3;
+  position: fixed;
+  width: 100px;
+  background-color: red;
 }

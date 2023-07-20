@@ -6,7 +6,7 @@ function Main()
         
         <>
         <h1>This is main</h1>
-        <button>=</button>
+
         </>
     );
 }
