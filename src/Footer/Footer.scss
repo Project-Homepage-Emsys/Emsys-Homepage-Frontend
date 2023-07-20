@@ -1,0 +1,43 @@
+.footer {
+    background-color: #525252;
+    position: relative;
+
+    .contact {
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 50px;
+        p {
+            margin: 0px;
+            color: #FFF;
+            text-align: left;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            opacity: 70%;
+        }
+    }
+
+    #button-top {
+        display: inline-block;
+        position: absolute;
+        top: 50px;
+        right: 10%;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+
+    }
+
+    hr {
+        width: 80%;
+        opacity: 50%;
+    }
+
+    #copyright {
+        color: #FFF;
+        margin-left: 10%;
+        padding-bottom: 10px;
+        opacity: 40%;
+    }
+}
